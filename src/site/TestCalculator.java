@@ -15,7 +15,7 @@ class TestCalculator {
 		get
 		int result=test.add(2, 3,3);
 		
-		assertEquals(actual,result);
+		assertmax(actual,result);
 		
 	}
 
@@ -26,6 +26,6 @@ Calculator cal=new Calculator();
 		
 		int result=test.add(6);
 		
-		assertEquals(14,result);
+		assertmax(14,result);
 	}
 }
